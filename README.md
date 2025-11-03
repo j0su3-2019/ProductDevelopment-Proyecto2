@@ -33,10 +33,6 @@ Desarrollar un modelo de forecasting robusto y preciso que permita predecir vent
 ### Objetivos Específicos
 1. **Realizar un EDA completo** del dataset de ventas
 2. **Identificar patrones temporales** y estacionalidad
-3. **Implementar múltiples modelos** de forecasting
-4. **Evaluar y comparar** el rendimiento de los modelos
-5. **Crear visualizaciones** interactivas y reportes
-6. **Generar predicciones** para períodos futuros
 
 ## 📊 Dataset
 
@@ -65,27 +61,6 @@ Desarrollar un modelo de forecasting robusto y preciso que permita predecir vent
 - ✅ **Análisis de autocorrelación** (ACF/PACF)
 - ✅ **Detección de outliers** y comportamientos anómalos
 
-### 2. Ingeniería de Características
-- 🔄 Variables temporales (día de semana, mes, año)
-- 🔄 Lags significativos (1, 7, 30 días)
-- 🔄 Medias móviles (7, 14, 30 días)
-- 🔄 Indicadores estacionales
-- 🔄 Variables categóricas codificadas
-
-### 3. Modelado Predictivo
-- 🔄 **SARIMA:** Modelos autoregresivos estacionales
-- 🔄 **Prophet:** Framework de Facebook para forecasting
-- 🔄 **LSTM/GRU:** Redes neuronales recurrentes
-- 🔄 **Random Forest:** Ensamble de árboles de decisión
-- 🔄 **XGBoost:** Gradient boosting optimizado
-
-### 4. Evaluación y Validación
-- 🔄 Validación cruzada temporal
-- 🔄 Métricas múltiples (MAPE, RMSE, MAE)
-- 🔄 Intervalos de confianza
-- 🔄 Análisis de residuos
-
-## 📁 Estructura del Proyecto
 
 ```
 ProductDevelopment-Proyecto2/
@@ -208,25 +183,6 @@ python src/models/predict_model.py
 - **Componentes estacionales:** Múltiples niveles detectados
 - **Predictibilidad:** Alta autocorrelación permite pronósticos precisos
 
-## 🧪 Testing y Validación
-
-### Ejecutar Tests
-```bash
-# Test completo
-tox
-
-# Test específicos
-python -m pytest tests/
-
-# Verificar calidad de código
-flake8 src/
-```
-
-### Métricas de Evaluación
-- **MAPE:** Error porcentual medio absoluto
-- **RMSE:** Error cuadrático medio
-- **MAE:** Error absoluto medio
-- **R²:** Coeficiente de determinación
 
 ## 📚 Recursos y Referencias
 
@@ -239,23 +195,23 @@ flake8 src/
 - **Scikit-learn:** Machine learning
 - **Prophet:** Forecasting automático
 
-### Referencias Académicas
-- Box, G. E. P. & Jenkins, G. M. (2015). *Time Series Analysis: Forecasting and Control*
-- Hyndman, R. J. & Athanasopoulos, G. (2021). *Forecasting: Principles and Practice*
-- Taylor, S. J. & Letham, B. (2018). *Forecasting at Scale*
-
 ## 👥 Contribuciones
 
-### Autor Principal
-- **Nombre:** [Tu Nombre]
-- **Email:** [tu.email@example.com]
-- **LinkedIn:** [tu-linkedin]
-- **GitHub:** [@j0su3-2019](https://github.com/j0su3-2019)
+### Autores
+- **Nombre:** Josué Efraín Martínez Sagastume
+- **Carnet:** 24007915
+- **GitHub:** https://github.com/j0su3-2019
+ 
 
-### Agradecimientos
-- **Universidad Galileo** - Postgrado en Análisis y Predicción de Datos
-- **Profesores del curso** Product Development
-- **Compañeros de clase** por retroalimentación y colaboración
+- **Nombre:** Wilmar Marcial Ajtun Galicia
+- **Carnet:** 24009271
+- **GitHub:** https://github.com/ylceballos
+
+
+- **Nombre:** Yeimi Lizeth Ceballos Hernández
+- **Carnet:** 24010212
+- **GitHub:** https://github.com/Wilmar4
+
 
 ## 📄 Licencia
 
@@ -274,23 +230,7 @@ La **Licencia MIT** es ideal para proyectos académicos porque:
 ## 🔄 Estado del Proyecto
 
 - ✅ **Fase 1:** Análisis Exploratorio de Datos (Completado)
-- 🔄 **Fase 2:** Ingeniería de Características (En Progreso)
-- ⏳ **Fase 3:** Modelado Predictivo (Pendiente)
-- ⏳ **Fase 4:** Evaluación y Validación (Pendiente)
-- ⏳ **Fase 5:** Deployment y Presentación (Pendiente)
 
-## 📞 Contacto
 
-Para preguntas, sugerencias o colaboraciones:
 
-- **Email:** [tu.email@galileo.edu]
-- **GitHub Issues:** [Crear Issue](https://github.com/j0su3-2019/ProductDevelopment-Proyecto2/issues)
-- **LinkedIn:** [Tu Perfil de LinkedIn]
 
----
-
-*Desarrollado con ❤️ para el Postgrado en Análisis y Predicción de Datos - Universidad Galileo*
-
----
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
